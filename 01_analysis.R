@@ -4,7 +4,8 @@
 ##
 ## hiPSC-derived astrocytes: PO2 (WT), HEL69-5 (FXS), HEL100-1 (FXS-epilepsy).
 ##
-## Input   data/counts_raw_cellranger/    (Zenodo record — see README.md)
+## Input   data/counts_raw_cellranger/    (Zenodo record — unpack
+##                                        counts_raw_cellranger.tar; see README.md)
 ## Output  results/sce.rds                annotated SingleCellExperiment
 ##         results/cell_metadata.tsv.gz   per-cell table (as deposited)
 ##         results/gene_metadata.tsv.gz   per-gene table (as deposited)

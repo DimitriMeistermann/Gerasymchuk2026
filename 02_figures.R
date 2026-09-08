@@ -5,7 +5,8 @@
 ## The cluster labels and TriMap coordinates it uses are the published ones, so
 ## the panels it draws match the paper.
 ##
-## Input   data/counts_filtered/            matrix.mtx.gz, genes.tsv.gz,
+## Input   data/counts_filtered/            (unpack counts_filtered.tar first)
+##                                          matrix.mtx.gz, genes.tsv.gz,
 ##                                          barcodes.tsv.gz
 ##         data/cell_metadata.tsv.gz
 ##         data/gene_metadata.tsv.gz

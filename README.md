@@ -30,13 +30,21 @@ populate from the two public deposits:
 
 ```bash
 mkdir -p data
-# download and unpack the Zenodo record into data/
+# download the Zenodo record into data/, then unpack the two count matrices
+cd data
+tar -xf counts_filtered.tar          # -> counts_filtered/
+tar -xf counts_raw_cellranger.tar    # -> counts_raw_cellranger/
+cd ..
 ```
 
-After unpacking, `data/` should contain `counts_filtered/`,
-`counts_raw_cellranger/`, `cell_metadata.tsv.gz`, `gene_metadata.tsv.gz`,
-`cluster_annotation.tsv`, `cell_line_annotation.tsv` and
-`fig4A_gene_selection.tsv`. The Zenodo `README.md` documents every file.
+The two `.tar` files are uncompressed on purpose — their contents are already
+gzipped. Every other file in the record is read directly and needs no
+unpacking.
+
+Afterwards, `data/` should contain the directories `counts_filtered/` and
+`counts_raw_cellranger/` alongside `cell_metadata.tsv.gz`,
+`gene_metadata.tsv.gz`, `cluster_annotation.tsv`, `cell_line_annotation.tsv`
+and `fig4A_gene_selection.tsv`. The Zenodo `README.md` documents every file.
 
 ## Running
 
