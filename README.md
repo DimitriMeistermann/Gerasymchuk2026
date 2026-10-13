@@ -2,8 +2,8 @@
 
 Analysis code for the single-cell RNA-seq panels of **Figure 4** in:
 
-> Gerasymchuk *et al.* (2026), *Expression of genes involved in fatty acid
-> metabolism in control and FXS astrocytes and their functional subtypes.*
+> Gerasymchuk *et al.* (2026), *Astrocytes contribute to long-chain polyunsaturated fatty acid
+> metabolism affecting microglia in fragile X syndrome.*
 
 Human iPSC-derived forebrain astrocytes from three lines — **PO2** (control),
 **HEL69-5** (FXS) and **HEL100-1** (FXS with epilepsy) — profiled with 10x
